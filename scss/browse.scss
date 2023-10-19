@@ -1,0 +1,102 @@
+.browse {
+    width: 100%;
+
+    h1{
+        position: absolute;
+        top: 145px;
+        left: 10%;
+        z-index: 1;
+        text-transform: capitalize;
+        font-size: 200px;
+        margin: 20px auto;
+        text-align: center;
+        color: transparent;
+        font-family: sans-serif;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: #fff;
+    }
+
+    .imageGrid {
+        width: 1185px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 40px auto;
+
+        .container {
+            width: 375px;
+            height: 200px;
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .image {
+                width: 200px;
+                height: 100%;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            .image.one {
+                background-image: url(../images/thumb1_200x200.jpg);
+            }
+
+            .image.two {
+                background-image: url(../images/thumb2_200x200.jpg);
+            }
+
+            .image.three {
+                background-image: url(../images/thumb3_200x200.jpg);
+            }
+
+            .image.four {
+                background-image: url(../images/thumb4_200x200.jpg);
+            }
+
+            .image.five {
+                background-image: url(../images/thumb5_200x200.jpg);
+            }
+
+            .image.six {
+                background-image: url(../images/thumb6_200x200.jpg);
+            }
+
+            .image.seven {
+                background-image: url(../images/thumb7_200x200.jpg);
+            }
+
+            .image.eight {
+                background-image: url(../images/thumb8_200x200.jpg);
+            }
+
+            .image.nine {
+                background-image: url(../images/thumb9_200x200.jpg);
+            }
+
+            .image.ten {
+                background-image: url(../images/thumb10_200x200.jpg);
+            }
+
+            .text {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 150px;
+                height: 100%;
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 960px) {
+    
+    .browse {
+        .imageGrid {
+            width: 780px;
+        }
+    }
+}
